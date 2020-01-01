@@ -71,4 +71,12 @@ public class LoginTestcase extends Testbase {
          Assert.assertEquals("Rediff Moneywiz | My Portfolio(s)",homepagetitle);
     }
     
+    @Then("click on myportofolio dropdown and verify")
+    public void myportofolio_dropdown() throws InterruptedException {
+    	 
+    	homepage.selectportofoliodropdown();
+      	//String dropdowntext=homepage.verifyHomepagetitle();
+         Assert.assertEquals("My Portfolio(s):",homepage.getDropdowntext());
+    }
+    
 }

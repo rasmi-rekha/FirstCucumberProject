@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
 		dryRun=false,
 		strict=false,
 		monochrome=false,
-		features= {"D:/workspace/FirstCucumberProject/src/test/resource/com/cucumber/rediff/Login.feature"},
+		features= {"D:/workspace/FirstCucumberProject/src/test/resource/com/cucumber/rediff/Datadriven.feature"},
 		//features= {"src/test/resource/"},
 		glue = {"FirstCucumber.FirstCucumberProject"},
 		plugin= {

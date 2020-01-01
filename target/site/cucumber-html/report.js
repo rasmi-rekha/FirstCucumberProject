@@ -1,93 +1,83 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:/D:/workspace/FirstCucumberProject/src/test/resource/com/cucumber/rediff/Login.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:/D:/workspace/FirstCucumberProject/src/test/resource/com/cucumber/rediff/Datadriven.feature");
 formatter.feature({
-  "name": "Logging into Rediff money",
-  "description": "  I want to use this template for my feature file",
+  "name": "Testing Datadriven feature in cucumber",
+  "description": "",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@Login"
+      "name": "@tag"
     }
   ]
 });
 formatter.scenario({
-  "name": "Logging into Rediff money",
+  "name": "Login rediff to test datadriven",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@Login"
+      "name": "@tag"
     },
     {
-      "name": "@Login"
+      "name": "@tag1"
     }
   ]
 });
 formatter.step({
-  "name": "I open chrome",
+  "name": "User will open \"chrome\" browser",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "LoginTestcase.openBrowser(String)"
+  "location": "Datadrivendefinition.openBrowser(String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I navigate to loginURL",
+  "name": "User open  loginURL",
   "keyword": "And "
 });
 formatter.match({
-  "location": "LoginTestcase.navigate(String)"
+  "location": "Datadrivendefinition.navigate(String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "validate login pagetext",
+  "name": "User validated login page content",
   "keyword": "And "
 });
 formatter.match({
-  "location": "LoginTestcase.validatepagetext()"
+  "location": "Datadrivendefinition.validatepagetext()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "validate login pagetitle",
+  "name": "User entered \"bibek346@rediffmail.com\" and \"Rasmi1@3\"",
   "keyword": "And "
 });
 formatter.match({
-  "location": "LoginTestcase.validatepagetitle()"
+  "location": "Datadrivendefinition.login(String,String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I entered emailid and password",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "LoginTestcase.login()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Homepage is displayed",
+  "name": "User name is displayed on Homepage",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "LoginTestcase.homepage_is_displayed()"
+  "location": "Datadrivendefinition.homepage_is_displayed()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "validate home page title",
+  "name": "User validated home page title",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "LoginTestcase.validate_home_page_title()"
+  "location": "Datadrivendefinition.validate_home_page_title()"
 });
 formatter.result({
   "status": "passed"

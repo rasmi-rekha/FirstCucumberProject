@@ -29,4 +29,5 @@ Feature: Logging into Rediff money
     And I entered emailid and password
     Then Homepage is displayed
     Then validate home page title
+    Then click on myportofolio dropdown and verify
 

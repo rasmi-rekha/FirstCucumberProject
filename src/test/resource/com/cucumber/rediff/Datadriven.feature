@@ -16,18 +16,18 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
-@Login
-Feature: Logging into Rediff money
-  I want to use this template for my feature file
+@tag
+Feature: Testing Datadriven feature in cucumber
+ 
 
-  @Login
-  Scenario: Logging into Rediff money
-    Given I open chrome
-    And I navigate to loginURL
-    And validate login pagetext
-    And validate login pagetitle
-    And I entered emailid and password
-    Then Homepage is displayed
-    Then validate home page title
-    Then click on myportofolio dropdown and verify
+  @tag1
+  Scenario: Login rediff to test datadriven
+    Given User will open "chrome" browser
+    And User open  loginURL
+    And User validated login page content
+    And User entered "bibek346@rediffmail.com" and "Rasmi1@3"
+    Then User name is displayed on Homepage
+    Then User validated home page title
+    
 
+ 
