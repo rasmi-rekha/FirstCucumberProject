@@ -66,7 +66,7 @@ public class LoginPortofolio extends Testbase {
 	public  Homepage login(String eid,String pwd) throws InterruptedException{
 		
 		emailid.sendKeys(eid);
-		loginbutton.click();
+		//loginbutton.click();
 		Thread.sleep(2000);
 		password.sendKeys(pwd);
 		loginsubmit.click();

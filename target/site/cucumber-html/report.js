@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:/D:/workspace/FirstCucumberProject/src/test/resource/com/cucumber/rediff/Datadriven.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:/D:/workspace/FirstCucumberProject/src/test/java/features/Datadriven.feature");
 formatter.feature({
   "name": "Testing Datadriven feature in cucumber",
   "description": "",

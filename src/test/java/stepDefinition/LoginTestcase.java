@@ -1,4 +1,4 @@
-package FirstCucumber.FirstCucumberProject;
+package stepDefinition;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;

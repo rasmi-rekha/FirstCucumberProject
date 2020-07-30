@@ -1,4 +1,4 @@
-package com.cucumber.runner;
+package cucumber.options;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -14,15 +14,15 @@ import org.junit.runner.RunWith;
 		dryRun=false,
 		strict=false,
 		monochrome=false,
-		features= {"D:/workspace/FirstCucumberProject/src/test/resource/com/cucumber/rediff/Datadriven.feature"},
+		features= {"D:/workspace/FirstCucumberProject/src/test/java/features/Datadriven.feature"},
 		//features= {"src/test/resource/"},
-		glue = {"FirstCucumber.FirstCucumberProject"},
+		glue = {"stepDefinition"},
 		plugin= {
 				"html:target/site/cucumber-html",
 				"json:target/cucumber1.json"}
 		
 		)
 
-public class Runner {
+public class TestRunner {
 
 }

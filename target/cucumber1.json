@@ -3,7 +3,7 @@
     "line": 20,
     "elements": [
       {
-        "start_timestamp": "2020-01-01T18:03:59.998Z",
+        "start_timestamp": "2020-07-30T05:57:35.527Z",
         "line": 24,
         "name": "Login rediff to test datadriven",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 24122393057,
+              "duration": 13439257753,
               "status": "passed"
             },
             "line": 25,
@@ -31,7 +31,7 @@
           },
           {
             "result": {
-              "duration": 3754706095,
+              "duration": 1559321921,
               "status": "passed"
             },
             "line": 26,
@@ -49,7 +49,7 @@
           },
           {
             "result": {
-              "duration": 265348494,
+              "duration": 152853034,
               "status": "passed"
             },
             "line": 27,
@@ -61,7 +61,7 @@
           },
           {
             "result": {
-              "duration": 3650808560,
+              "duration": 6103018471,
               "status": "passed"
             },
             "line": 28,
@@ -83,7 +83,7 @@
           },
           {
             "result": {
-              "duration": 5988979435,
+              "duration": 3052500296,
               "status": "passed"
             },
             "line": 29,
@@ -95,7 +95,7 @@
           },
           {
             "result": {
-              "duration": 188211682,
+              "duration": 34300222,
               "status": "passed"
             },
             "line": 30,
@@ -120,7 +120,7 @@
     "description": "",
     "id": "testing-datadriven-feature-in-cucumber",
     "keyword": "Feature",
-    "uri": "file:/D:/workspace/FirstCucumberProject/src/test/resource/com/cucumber/rediff/Datadriven.feature",
+    "uri": "file:/D:/workspace/FirstCucumberProject/src/test/java/features/Datadriven.feature",
     "tags": [
       {
         "name": "@tag",
